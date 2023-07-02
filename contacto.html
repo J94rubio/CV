@@ -20,7 +20,7 @@
             </div>     
         </header>
         <main>
-            <form>
+            <form action="/API/" method>
                 <label for="nombreapellido">Nombre y Apellido</label>
                 <input type="text" id="nombreapellido" class="input-padron" required>
 
@@ -57,7 +57,8 @@
                 </filedset>
                 
                 <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
-                <input type="submit" value="Enviar Formulario" class="enviar">
+                <!-- <input type="submit" value="Enviar Formulario" class="enviar"> -->
+                <button type="button" class="enviar" id="enviar" onclick="saveForm">Enviar</button>
             </form>
             <table>
                 <thead>
@@ -83,8 +84,8 @@
             </table>
         </main>
         <footer>
-            <img src="imagenes/logo-blanco.png" alt="Logo de la Barbería Alura">
-            <p class="copyright"> &copy Copyright Barbería Alura - 2020</p>
+            <!-- <img src="imagenes/logo-blanco.png" alt="Logo de la Barbería Alura"> -->
+            <p class="copyright"> &copy Copyright Ing. José Rubio - 2023</p>
         </footer>
     </body>
 </html>
