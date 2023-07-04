@@ -1,10 +1,23 @@
+body{
+    background: #EEEEEE;
+}
+main{
+    padding-bottom: 3%;
+}
+
 nav li{
     display: inline;
     padding-left: 15px;
 }
 
+nav{
+    text-align: right;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
 nav a {
-    padding-left: 40%;
+    
     text-transform: uppercase;
     color:#c78c19;
     font-weight: bold;
@@ -15,6 +28,18 @@ nav a {
 nav a:hover{
     color: orange;
     text-decoration: underline;
+}
+
+#serviciosTitle{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 20%;
+}
+
+.servicios{
+    font-size: 25px;
+    padding-left: 10%;
 }
 
 .productos{
@@ -39,6 +64,12 @@ nav a:hover{
 .conversor{
     display: grid;
     grid-template-columns: 70% 30%;
+    padding-right: 1em;
+}
+
+#conversor{
+    border: 2px solid black;
+    box-shadow: 3px #c78c19;
 }
 
 #encriptadorTitle{
@@ -49,15 +80,19 @@ nav a:hover{
 .encriptador{
     display: grid;
     grid-template-columns: 30% 70%;
+    gap: 1em;
+    padding-right: 1em;
 }
 
 footer{
     text-align: center;
+    padding: 2%;
 }
 
 /* css formulario */
 form{
     margin: 40px 0;
+    padding-left: 3%;
 }
 
 form label, form legend{
@@ -71,10 +106,12 @@ form label, form legend{
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+    border-radius: 20px;
 }
 
-.checkbox{
+.horario{
     margin: 20px 0;
+    
 }
 
 .enviar{

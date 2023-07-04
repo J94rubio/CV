@@ -24,7 +24,6 @@
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     justify-items: center;
-    /* border: 1px solid black; */
 }
 
 #foto{
@@ -189,6 +188,41 @@ nav a:hover{
         width: 50%;
     }
 }
+
+#php-menu{
+    animation: php-barra 2s forwards;
+}
+@keyframes php-barra{
+    100%{
+        width: 50%;
+    }
+}
+
+#java-menu{
+    animation: java-barra 2s forwards;
+}
+@keyframes java-barra{
+    100%{
+        width: 50%;
+    }
+}
+#excel-menu{
+    animation: excel-barra 2s forwards;
+}
+@keyframes excel-barra{
+    100%{
+        width: 50%;
+    }
+}
+#ingles-menu{
+    animation: ingles-barra 2s forwards;
+}
+@keyframes ingles-barra{
+    100%{
+        width: 50%;
+    }
+}
+
 
 .experiencia, .descripcion, .cursos, .cursosDescripcion{
     display: grid;

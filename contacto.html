@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Contacto - Barbería Alura</title>
-        <link   rel="stylesheet" href="reset.css">
-        <link   rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header> 
+        <header>
             <div class="Menu navegación">
                 <nav>
                     <ul>
@@ -17,10 +16,10 @@
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
-            </div>     
+            </div>
         </header>
         <main>
-            <form action="/API/" method>
+            <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
                 <input type="text" id="nombreapellido" class="input-padron" required>
 
@@ -30,62 +29,31 @@
                 <label for="telefono">Teléfono</label>
                 <input type="tel" id="telefono" class="input-padron" required placeholder="(+xx) 123 456 7890">
 
-                <label for="mensaje">Mensaje</label>    
+                <label for="mensaje">Mensaje</label>
                 <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
 
-                <fieldset>
-
-                    <legend>¿Como le gustaría que lo contactemos?</legend>
-
+                <fieldset id="contacto">
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
                     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
-                    
-
                     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
-                    
-
                     <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
-                    
                 </fieldset>
 
-                <fieldset>
-                    <legend>¿En que horario prefiere ser atendido?</legend>
-                    <select>
-                        <option>Mañana</option>
-                        <option>Tarde</option>
-                        <option>Noche</option>
+                <fieldset id="horario">
+                    <legend>¿En qué horario prefiere ser atendido?</legend>
+                    <select id="horario-select">
+                        <option>Mañana 08:00 - 12:00</option>
+                        <option>Tarde 13:00 - 17:00</option>
+                        <option>Noche 18:00 - 19:00</option>
                     </select>
-                </filedset>
-                
-                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
-                <!-- <input type="submit" value="Enviar Formulario" class="enviar"> -->
-                <button type="button" class="enviar" id="enviar" onclick="saveForm">Enviar</button>
+                </fieldset> <br><br><br>
+
+                <button type="button" class="enviar" id="enviar" >Enviar</button>
             </form>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Día</th>
-                        <th>Horario</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lunes</td>
-                        <td>08h ~ 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Miércoles</td>
-                        <td>08h ~ 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Viernes</td>
-                        <td>08h ~ 20h</td>
-                    </tr>
-                </tbody>
-            </table>
         </main>
         <footer>
-            <!-- <img src="imagenes/logo-blanco.png" alt="Logo de la Barbería Alura"> -->
-            <p class="copyright"> &copy Copyright Ing. José Rubio - 2023</p>
+            <p class="copyright">&copy; Derechos de autor Ing. José Rubio - 2023</p>
         </footer>
+        <script src="script.js"></script>    
     </body>
 </html>
