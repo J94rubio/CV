@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 100%;
     text-align: center;
-    background: #666666;
+    background: #474b4e;
     color: aliceblue;
 }
 
@@ -27,7 +27,7 @@
 }
 
 #foto{
-    width: 40%;
+    width: 45%;
     margin-left: 30%;
     border-radius: 1em;
     /* border: 1px solid black; */
@@ -60,13 +60,14 @@ nav a:hover{
 }
 
 .foto, .educacion, .habilidades {
-    background: #EEEEEE;
+    background: #c8c8c8;
     grid-gap: 0em;
 }
 
 .foto{
     grid-row: 1/3;
     gap: 1px;
+    padding-top: 2em;
     /* border: 1px solid black; */
 }
 
@@ -131,11 +132,6 @@ nav a:hover{
     border-bottom: 2px solid black;
 }
 
-/* .habilidades{
-    padding: 0.5em;
-    padding-bottom: 2em;
-} */
-
 .skills:not(:last-child){
     margin-bottom: 30px;
 }
@@ -167,7 +163,7 @@ nav a:hover{
 }
 @keyframes html-barra{
     100%{
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -176,7 +172,7 @@ nav a:hover{
 }
 @keyframes css-barra{
     100%{
-        width: 70%;
+        width: 40%;
     }
 }
 
@@ -194,7 +190,7 @@ nav a:hover{
 }
 @keyframes php-barra{
     100%{
-        width: 50%;
+        width: 45%;
     }
 }
 
@@ -203,7 +199,7 @@ nav a:hover{
 }
 @keyframes java-barra{
     100%{
-        width: 50%;
+        width: 30%;
     }
 }
 #excel-menu{
@@ -211,7 +207,7 @@ nav a:hover{
 }
 @keyframes excel-barra{
     100%{
-        width: 50%;
+        width: 75%;
     }
 }
 #ingles-menu{
@@ -219,7 +215,7 @@ nav a:hover{
 }
 @keyframes ingles-barra{
     100%{
-        width: 50%;
+        width: 60%;
     }
 }
 

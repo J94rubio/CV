@@ -38,8 +38,8 @@ function save() {
         console.log(response);
         console.log(response.json());
     
-        if(response.status == 200){
-            alert("Envio exitoso de formulario !!");
+        if(response.status == 201){
+            alert("Gracias!! Pronto me estare comunicando contigo");
             limpiarFormulario();
         }else{
     

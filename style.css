@@ -1,9 +1,9 @@
 body{
-    background: #EEEEEE;
+    background: #c8c8c8;
 }
-main{
-    padding-bottom: 3%;
-}
+/* main{
+    padding-bottom: 2%;
+} */
 
 nav li{
     display: inline;
@@ -31,14 +31,14 @@ nav a:hover{
 }
 
 #serviciosTitle{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     text-decoration: underline;
     padding-left: 20%;
 }
 
 .servicios{
-    font-size: 25px;
+    font-size: 20px;
     padding-left: 10%;
 }
 
@@ -49,22 +49,26 @@ nav a:hover{
 
 #cerraduraTitle{
     text-align: right;
-    margin-right: 52%;
+    margin-right: 46%;
 }
 
 .cerradura{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
+    font-size: 17px;
 }
 
 #convertTitle{
     text-align: left;
+    padding-top: 2em;
 }
 
 .conversor{
     display: grid;
-    grid-template-columns: 70% 30%;
-    padding-right: 1em;
+    grid-template-columns: 65% 35%;
+    column-gap: 5px;
+    font-size: 17px;
+    padding-right: 1.5em;
 }
 
 #conversor{
@@ -74,21 +78,25 @@ nav a:hover{
 
 #encriptadorTitle{
     text-align: right;
-    margin-right: 52%;
+    margin-right: 44%;
+    padding-top: 2em;
 }
 
 .encriptador{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     gap: 1em;
-    padding-right: 1em;
+    font-size: 17px;
+    padding-right: 1.5em;
 }
 
 footer{
     text-align: center;
-    padding: 2%;
 }
-
+#footerForm{
+    padding-bottom: 1em;
+    font-weight: bold;
+}
 /* css formulario */
 form{
     margin: 40px 0;
@@ -115,7 +123,7 @@ form label, form legend{
 }
 
 .enviar{
-    width: 30%;
+    width: 20%;
     padding: 15px 0;
     color: white;
     background: orange;
