@@ -101,6 +101,7 @@ footer{
 form{
     margin: 40px 0;
     padding-left: 3%;
+    border: none;
 }
 
 form label, form legend{
@@ -131,6 +132,10 @@ form label, form legend{
     border: none;
     font-weight: bold;
     border-radius: 5px;
+}
+
+:focus{
+    outline: 2px solid orange;
 }
 
 .enviar:hover{
