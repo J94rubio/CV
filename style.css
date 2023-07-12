@@ -101,13 +101,13 @@ footer{
 form{
     margin: 40px 0;
     padding-left: 3%;
-    border: none;
 }
 
 form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    font-weight: bold;
 }
 
 .input-padron{
@@ -116,11 +116,24 @@ form label, form legend{
     padding: 10px 25px;
     width: 50%;
     border-radius: 20px;
+    border: none;
+    background: darkgray;
 }
 
-.horario{
-    margin: 20px 0;
-    
+#horario {
+    /* margin: 20px; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+#horario-select {
+    padding: 5px;
+    width: 30em;
+    font-size: 14px;
+    border-radius: 5px;
+    background: darkgrey;
 }
 
 .enviar{
@@ -131,6 +144,7 @@ form label, form legend{
     transition: 1s all;
     border: none;
     font-weight: bold;
+    font-size: 18px;
     border-radius: 5px;
 }
 
